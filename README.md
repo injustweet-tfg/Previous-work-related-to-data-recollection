@@ -30,13 +30,13 @@ dict                 Directorio con los diccionarios de todas las iteraciones
     query_dic.csv                   Porción del diccionario FRECUENCIES_DIC.csv para consultas de datos (stream y scrape)
 
 json                 Directorio con todos los archivos json utilizados
-    classified_as_negative.json
-    classified_as_positive.json
-    examples_scrape.json
-    false_negatives.json
-    false_positives.json
-    not_examples_scrape.json
-    prueba.json
+    classified_as_negative.json     Fichero formado por tweets que el algoritmo ha clasificado como negativos o "no denuncias"
+    classified_as_positive.json     Fichero formado por tweets que el algoritmo ha clasificado como positivos o "denuncias"
+    examples_scrape.json            Fichero donde se almacenan todos los tweets recogidos por el algoritmo que clasifica como denuncias
+    false_negatives.json            Fichero formado por la clasificación manual de falsos negativos encontrados en "classified_as_negative.json"
+    false_positives.json            Fichero formado por la clasificación manual de falsos positivos encontrados en "classified_as_positive.json"
+    not_examples_scrape.json        Fichero donde se almacenan todos los tweets recogidos por el algoritmo que clasifica como no denuncias
+    prueba.json                     Fichero auxiliar que tiene la misma función que "examples_scrape.json"
 
 text                 Directorio con archivos de distintos propósitos auxiliares a los códigos usados
     random_tweets.txt
