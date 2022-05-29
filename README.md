@@ -41,6 +41,6 @@ Directory that holds every JSON file used.
 
 ### TEXT                 
 Directory that holds all purpose files.
-- [random_tweets.txt](https://github.com/injustweet-tfg/Previous-work-related-to-data-recollection/blob/master/text/random_tweets.txt)
+- [random_tweets.txt](https://github.com/injustweet-tfg/Previous-work-related-to-data-recollection/blob/master/text/random_tweets.txt) File that holds a set of tweets from different people which were retrieved by "twitter_training.py".
 - [training.csv](https://github.com/injustweet-tfg/Previous-work-related-to-data-recollection/blob/master/text/training.csv)                    Corpus with complaints that is used to evaluate the dictionary.
-- [training.txt](https://github.com/injustweet-tfg/Previous-work-related-to-data-recollection/blob/master/text/training.txt)
+- [training.txt](https://github.com/injustweet-tfg/Previous-work-related-to-data-recollection/blob/master/text/training.txt) File that contains the text before being cleaned from the instagram posts used as complaints to evaluate the algorithm.
